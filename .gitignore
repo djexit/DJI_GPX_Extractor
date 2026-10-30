@@ -29,3 +29,4 @@ Thumbs.db
 # Release binaries should be uploaded to GitHub Releases, not committed
 *.exe
 !exiftool.exe
+/.vs

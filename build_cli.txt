@@ -1,0 +1,8 @@
+cd /d C:\dron
+
+py -3.8 -m PyInstaller --clean --onefile ^
+  --name "DJI_GPX_Extractor" ^
+  --icon ikona.ico ^
+  --add-data "ikona.ico;." ^
+  --version-file dji_gpx_extractor_version_cli.txt ^
+  dji_gpx_extractor_cli.py
